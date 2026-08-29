@@ -1,0 +1,13 @@
+import { StyleSheet } from "react-native";
+
+export const style = StyleSheet.create({
+  input: {
+    width: "100%",
+    height: 48,
+    borderWidth: 1,
+    borderColor: "#DCDCDC",
+    borderRadius: 8,
+    fontSize: 16,
+    paddingLeft: 12,
+  },
+});

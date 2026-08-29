@@ -6,6 +6,14 @@ Um projeto inicial de fluxo de autenticação desenvolvido em **React Native**, 
 
 ---
 
+## 📸 Screenshots
+
+|                                Tela de Login                                 |                                  Tela de Cadastro                                  |
+| :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
+| <img src="./assets/screenshots/login.png" width="300" alt="Tela de Login" /> | <img src="./assets/screenshots/register.png" width="300" alt="Tela de Cadastro" /> |
+
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **React Native** (com TypeScript)
@@ -20,13 +28,13 @@ Um projeto inicial de fluxo de autenticação desenvolvido em **React Native**, 
 ### 1. Tela de Login (`Entrar`)
 
 - Campo de E-mail e Senha.
-- Navegação direta entre inputs com tecla Enter/Próximo (`useRef` + `onSubmitEditing`).
+- Transição fluida de foco de input com `useRef` e `onSubmitEditing`.
 - Link direto para a tela de cadastro.
 
 ### 2. Tela de Cadastro (`Cadastrar`)
 
 - Campos para Nome, E-mail, Senha e Confirmação de Senha.
-- Layout responsivo adaptado para telas modernas (testado no Pixel 9 - Android 15 / API 35).
+- Layout responsivo adaptado para dispositivos modernos (testado no Pixel 9 - API 35).
 
 ---
 
@@ -42,6 +50,6 @@ cd seu-repositorio
 # 3. Instale as dependências
 npm install
 
-# 4. Inicie o emulador/app
+# 4. Inicie o projeto
 npx expo start
 ```
